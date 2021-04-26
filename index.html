@@ -1,7 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOMEPAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: url(me.jpg) no-repeat;
+            background-size: cover;
+        }
+
+        .box {
+            width: 1200px;
+            height: 540px;
+            background: rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 7%;
+
+        }
+
+        .box .left a {
+            display: block;
+            width: 200px;
+            height: 90px;
+            background: rgba(0, 0, 0, 0.2);
+            font-size: 20px;
+            color: #fff;
+            text-decoration: none;
+            padding-left: 30px;
+            line-height: 90px;
+        }
+
+        .box .left a:hover {
+            background-color: #ff6700;
+        }
+
+        .left {
+            float: left;
+            width: 230px;
+            height: 540px;
+            background-color: cadetblue;
+            background: rgba(0, 0, 0, 0.2);
+        }
+
+        .right {
+            float: right;
+            width: 970px;
+            height: 540px;
+            background-color: rgba(152, 233, 233, 0.2);
+            ;
+
+        }
+
+        .right>div {
+            float: left;
+            width: 470px;
+            height: 540px;
+            background: rgba(0, 0, 0, 0.2);
+            margin-left: 14px;
+            margin-bottom: 14px;
+        }
+
+        .right .one {
+            background-color: rgb(152, 233, 233, 0.2);
+        }
+
+        .right .photo {
+            width: 490px;
+            height: 540px;
+        }
+
+        .right .one h1 {
+            color: white;
+            font-size: 60px;
+        }
+
+        .right .one p {
+            font-size: 28px;
+            font-weight: 500;
+            color: rgb(148, 241, 248);
+            font-style: italic;
+            text-align: left;
+        }
+    </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="MyCapturer.exe">Download</a>
+        <a href="#">Contact</a>
+        <a href="#">About</a>
+    </div>
+    <div class="box">
+        <div class="left">
+            <a href="#">Home</a>
+            <a href="MyCapturer.exe">Download</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+        </div>
+        <div class="right">
+            <div class="one">
+                <h1>Hello, world!</h1>
+                <br>
+                <p>You are welcome!</p>
+                <br>
+                <p>This is a simple page, just for download application about MyCapturer.</p>
+                <br>
+                <p>If you have any question, please contact with me by email or wechat in MyCapturer.</p>
+            </div>
+            <div>
+                <img src="me.jpg" alt="" class="photo">
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
